@@ -14,10 +14,14 @@
 </head>
 
 <body>
-    <div class="container">
-        <input type="text" class="userInput" placeholder="Enter your text">
-        <button class="encryptButton" onclick="getVal(); changeText()">Encrypt</button>
-        <p id="passOutput"></p>
+    <div class="encrypt">
+        <input type="text" class="userInput" id="encrytper" placeholder="Enter your text">
+        <button class="encryptButton" onclick="changeText(true)">Encrypt</button>
+        <p id="passOutputEncrypted"></p>
+
+        <input type="text" class="userInput" id="decrypter" placeholder="Enter your text">
+        <button class="encryptButton" onclick="changeText(false)">Decrypt</button>
+        <p id="passOutputDecrypted"></p>
     </div>
 </body>
 
