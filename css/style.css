@@ -1,0 +1,66 @@
+* {
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    background: rgb(102,55,212);
+    background: linear-gradient(90deg, rgb(45, 16, 112) 0%, rgb(14, 14, 37) 100%);
+    height: 100%;
+    align-items:center;
+    color: #fff;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(165, 164, 164);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.userInput {
+    height: 40px;
+    width: 195px;
+    color: #fff;
+    background-color: rgb(85, 85, 85);
+    border: 0px solid rgb(54, 54, 54);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.userInput:active, .userInput:focus {
+    outline: none;
+    background-color: rgb(67, 67, 67);
+}
+
+.userInput:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+.encryptButton {
+    margin-top: 20px;
+    height: 37px;
+    width: 135px;
+    border-radius: 15px;
+    border: 0px solid rgb(0, 0, 0);
+    color: #fff;
+    background-color: rgb(110, 36, 196);
+    font-size: 20px;
+}
+
+.encryptButton:hover {
+    background-color: rgb(85, 13, 167);
+}
